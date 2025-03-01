@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>ALL PRODUCCTS - SOCCER WORLD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+</head> 
+<body> 
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+            <img src="images/logo.webp" width="125px"> 
+            </div>
+            <nav>
+                <ul id="MenuItems" >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Poducts</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.jpg" width="30px"  height="30px"></a>
+            <img src="images/menu.webp" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!----about us---->
+    <div class="small_container con">
+        <div class="row">
+            <div class="col-2">
+                <h2 class="title">About Soccer Star</h2>
+                <p>Welcome to LuxeLane, your ultimate destination for women’s fashion that embodies elegance and individuality. At LuxeLane, we curate a stunning range of apparel that seamlessly blends contemporary trends with timeless sophistication. From everyday chic to statement pieces for special occasions, our collection empowers women to express their unique style with confidence. We are committed to providing a seamless shopping experience, exceptional customer service, and premium quality. LuxeLane isn’t just about clothing—it’s about celebrating the essence of womanhood through fashion. Redefine your wardrobe and let your style shine with LuxeLane, where every outfit tells your story. Fashion your journey with us!</p>
+            </div>
+            <div class="col-2 cc">
+                <img src="./images/stadium.jpg">
+            </div>
+        </div>
+
+        <!----Product Core---->
+        <h2 class="title">Our Product Core</h2>
+        <div class="row">
+            <div class="col-4">
+                <i class="fa fa-lightbulb fa-3x"></i>
+                <h4>Innovation</h4>
+                <p>We strive to bring you the latest advancements in technology, helping you stay ahead in a fast-paced digital world.</p>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-users fa-3x"></i>
+                <h4>Customer First</h4>
+                <p>Your satisfaction is our priority. We are dedicated to providing outstanding customer service and support.</p>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-shield-alt fa-3x"></i>
+                <h4>Quality</h4>
+                <p>We partner with trusted brands to ensure that you receive products of the highest quality and durability.</p>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-globe fa-3x"></i>
+                <h4>Global Reach</h4>
+                <p>We aim to connect tech enthusiasts across the globe, bringing the latest technology to your doorstep.</p>
+            </div>
+        </div>
+    </div>
+
+    <!----team details---->
+    <div class="testimonial">
+        <h2 class="title">Meet Our Team</h2>
+        <div class="small_container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./images/user.jpg">
+                    <h3>Sean Parker</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="col-3">
+                    <img src="./images/user2.jpg">
+                    <h3>Kim Yujin</h3>
+                    <p>Chief Technology Officer</p>
+                </div>
+                <div class="col-3">
+                    <img src="./images/user3.jpg">
+                    <h3>Mabel Joe</h3>
+                    <p>Head of Marketing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+ <!-------footer-------->
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>
+                    Download Our App
+                </h3>
+                <p>Download On for Android and ios Mobile </p>
+                <div class="app-logo">
+                    <img src="images/ap.jpg">
+                    <img src="images/g.jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.webp">
+                <p>Our Purpose Is To Make The pleasure And
+                    <br> Benifits of Sports Accesoriess To Many </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>
+                    Useful Links
+                </h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog</li>
+                    <li>Return Policy</li>
+                    <li>Joint Affiliate</li>
+                </ul>
+            </div>
+    
+            <div class="footer-col-4">
+                <h3>
+                    Folow Us
+                </h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>You Tube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> Copyright 2024</p>
+    </div>
+</div>
+<!-----js for togle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+    if(MenuItems.style.maxHeight=="0px")
+    {
+        MenuItems.style.maxHeight="200px";
+    }
+    else{
+        MenuItems.style.maxHeight="0px";
+    }
+}
+</script>
+
+</body>
+</html>
